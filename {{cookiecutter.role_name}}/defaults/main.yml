@@ -1,2 +1,8 @@
 ---
-# defaults file for {{ cookiecutter.role_name }}
+
+# Describe the default variables while documenting them.
+# Eg.
+
+## description: single line to describe what the variable sets
+## type: string|bool|dict|list
+#{{ cookiecutter.role_name }}_variable: default_value
