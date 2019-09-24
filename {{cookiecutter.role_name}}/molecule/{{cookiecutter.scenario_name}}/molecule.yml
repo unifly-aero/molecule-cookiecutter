@@ -13,9 +13,9 @@ platforms:
     # command: /sbin/init
     # privileged: true
   - name: {{ cookiecutter.role_name }}-{{ cookiecutter.scenario_name }}-ubuntu-bionic
-    # image: ubuntu:bionic
+    image: ubuntu:bionic
     # command: /lib/systemd/systemd
-    privileged: true
+    # privileged: true
   - name: {{ cookiecutter.role_name }}-{{ cookiecutter.scenario_name }}-debian-10
     image: debian:10
     # command: /lib/systemd/systemd
