@@ -1,0 +1,1 @@
+../../../../common/tests/test_{{cookiecutter.role_name}}.py

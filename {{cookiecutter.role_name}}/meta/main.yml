@@ -22,5 +22,6 @@ galaxy_info:
 
   galaxy_tags:
     - fiaasco
+    - {{ cookiecutter.role_name }}
 
 dependencies: []
