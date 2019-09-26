@@ -28,6 +28,13 @@ provide their own templates.
 .. _cookiecutter: https://github.com/audreyr/cookiecutter
 .. _molecule: https://github.com/ansible/molecule
 
+Fiaasco Usage
+=============
+
+::
+    $ cd roles_basepath
+    $ molecule init template -r chrony --url https://github.com/fiaasco/molecule-cookiecutter.git
+
 Usage
 =====
 
