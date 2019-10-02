@@ -27,7 +27,7 @@ Include the role in your playbook:
 ```
     - hosts: servers
       roles:
-         - { role: {{ cookiecutter.role_name }}, x: 42 }
+         - role: fiaasco.{{ cookiecutter.role_name }}
 ```
 
 ## Tags
