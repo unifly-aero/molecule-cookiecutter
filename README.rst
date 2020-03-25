@@ -33,7 +33,7 @@ Fiaasco Usage
 
 ::
     $ cd roles_basepath
-    $ molecule init template -r chrony --url https://github.com/fiaasco/molecule-cookiecutter.git
+    $ molecule init template -r chrony --url https://github.com/unifly-aero/molecule-cookiecutter.git
 
 Usage
 =====
@@ -41,7 +41,7 @@ Usage
 ::
 
     $ pip install cookiecutter
-    $ cookiecutter gh:ansible/molecule-cookiecutter
+    $ cookiecutter gh:unifly-aero/molecule-cookiecutter
 
 License
 -------
