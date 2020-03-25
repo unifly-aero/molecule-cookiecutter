@@ -5,8 +5,8 @@ driver:
   name: docker
 scenario:
   name: default
-lint:
-  name: yamllint
+lint: |
+  yamllint .
 platforms:
   - name: {{ cookiecutter.role_name }}-debian-10
     image: debian:10
@@ -26,9 +26,9 @@ provisioner:
       timeout: 30
     ssh_connection:
       pipelining: true
-  lint:
-    name: ansible-lint
+  lint: |
+    ansible-lint
 verifier:
   name: testinfra
-  lint:
-    name: flake8
+  lint: |
+    flake8
