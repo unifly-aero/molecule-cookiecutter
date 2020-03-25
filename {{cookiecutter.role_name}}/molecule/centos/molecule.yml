@@ -5,8 +5,8 @@ driver:
   name: docker
 scenario:
   name: centos
-lint:
-  name: yamllint
+lint:|
+  yamllint .
 platforms:
   - name: {{ cookiecutter.role_name }}-centos
     image: centos:7
@@ -22,9 +22,9 @@ provisioner:
       timeout: 30
     ssh_connection:
       pipelining: true
-  lint:
-    name: ansible-lint
+  lint: |
+    ansible-lint
 verifier:
   name: testinfra
-  lint:
-    name: flake8
+  lint: |
+    flake8
