@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/fiaasco/{{ cookiecutter.role_name }}.svg?branch=master)](https://travis-ci.com/fiaasco/{{ cookiecutter.role_name }})
-
 # Ansible Role: {{ cookiecutter.role_name }}
 
 A brief description of the role goes here.
@@ -27,7 +25,7 @@ Include the role in your playbook:
 ```
     - hosts: servers
       roles:
-         - role: fiaasco.{{ cookiecutter.role_name }}
+         - role: {{ cookiecutter.role_name }}
 ```
 
 ## Tags
